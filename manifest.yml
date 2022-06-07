@@ -2,10 +2,10 @@
   - name: onlinecourse
     routes:
       - route: finalappdjango.apic.mybluemix.ne
-    memory: 128M
+    memory: 256M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
       - route: finalappdjango.apic.mybluemix.ne
-    memory: 128M
+    memory: 256M
     buildpack: staticfile_buildpack
